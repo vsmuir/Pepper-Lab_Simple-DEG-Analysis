@@ -1,4 +1,3 @@
-setwd("~/Box Sync/Memory_B_Pepper")
 #Load packages needed for Limma linear modeling and DE analysis
 library(limma)
 library(xlsx)
