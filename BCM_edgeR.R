@@ -1,5 +1,3 @@
-setwd("~/Box Sync/Memory_B_Pepper")
-
 library(edgeR)
 
 options(stringsAsFactors = FALSE);
