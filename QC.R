@@ -1,5 +1,3 @@
-setwd("~/Box Sync/Memory_B_Pepper")
-
 library(plyr)
 library(ggplot2); theme_set(theme_bw(20) + theme(panel.grid.major = element_blank(),
                                                  panel.grid.minor = element_blank()))
@@ -12,6 +10,7 @@ library(ggthemes)
 library(stringr)
 library(dplyr)
 options(stringsAsFactors = FALSE)
+
 # Get colorblind palette
 cb_pal <- colorblind_pal()(8)
 my_cb_pal <- cb_pal[c(1,2,4,6,7,8)]
